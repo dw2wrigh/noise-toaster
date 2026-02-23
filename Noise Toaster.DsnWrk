@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Noise Toaster.PrjPcb
+[Project2]
+ProjectPath=..\..\Parts\MyParts\MyParts.LibPkg

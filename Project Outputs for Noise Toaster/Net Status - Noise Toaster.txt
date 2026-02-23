@@ -1,0 +1,86 @@
+Net Status Report
+Filename     : D:\Users\dw2wrigh\OneDrive - University of Waterloo\Documents\Research\Altium\Projects\Projects\Noise Toaster\Noise Toaster\Noise Toaster.PcbDoc
+Date         : 18/Nov/2024
+Time         : 12:11:36 PM
+Time Elapsed : 00:00:00
+
+Nets, Layer, Length
+    GND, Signal Layers Only, 5566.339mils
+    J1.1, Signal Layers Only, 550.015mils
+    J1.2, Signal Layers Only, 490.061mils
+    LED1.1, Signal Layers Only, 609.611mils
+    LED1.2, Signal Layers Only, 4785.598mils
+    NetC11_2, Signal Layers Only, 2707.908mils
+    NetC12_2, Signal Layers Only, 2361.338mils
+    NetC16_2, Signal Layers Only, 1234.922mils
+    NetC18_2, Signal Layers Only, 1646.077mils
+    NetC1_1, Signal Layers Only, 758.788mils
+    NetC1_2, Signal Layers Only, 849.44mils
+    NetC22_1, Signal Layers Only, 172.285mils
+    NetC22_2, Signal Layers Only, 436.467mils
+    NetC24_1, Signal Layers Only, 76.63mils
+    NetC25_2, Signal Layers Only, 169.548mils
+    NetC26_2, Signal Layers Only, 705.986mils
+    NetC2_1, Signal Layers Only, 1288.683mils
+    NetC3_1, Signal Layers Only, 287.263mils
+    NetC3_2, Signal Layers Only, 189.583mils
+    NetC6_2, Signal Layers Only, 858.478mils
+    NetC7_1, Signal Layers Only, 75.032mils
+    NetC7_2, Signal Layers Only, 835.501mils
+    NetC8_2, Signal Layers Only, 75.032mils
+    NetC9_1, Signal Layers Only, 2874.364mils
+    NetD1_1, Signal Layers Only, 80.349mils
+    NetD1_2, Signal Layers Only, 2142.679mils
+    NetJ2_1, Signal Layers Only, 142.612mils
+    NetJ2_2, Signal Layers Only, 142.612mils
+    NetQ10_1, Signal Layers Only, 68.96mils
+    NetQ1_3, Signal Layers Only, 205.267mils
+    NetQ3_1, Signal Layers Only, 477.577mils
+    NetQ3_2, Signal Layers Only, 481.292mils
+    NetQ6_1, Signal Layers Only, 582.492mils
+    NetQ7_3, Signal Layers Only, 293.326mils
+    NetQ8_3, Signal Layers Only, 468.035mils
+    NetQ9_3, Signal Layers Only, 95.518mils
+    NetR26_2, Signal Layers Only, 3266.017mils
+    NetR2_2, Signal Layers Only, 1165.993mils
+    NetR31_2, Signal Layers Only, 181.397mils
+    NetR39_2, Signal Layers Only, 834.974mils
+    NetR55_1, Signal Layers Only, 606.646mils
+    NetR58_1, Signal Layers Only, 1602.385mils
+    NetR67_1, Signal Layers Only, 604.536mils
+    NetR7_1, Signal Layers Only, 2435.674mils
+    R1.2, Signal Layers Only, 150mils
+    R13.2, Signal Layers Only, 281.066mils
+    R13.3, Signal Layers Only, 2304.326mils
+    R20.2, Signal Layers Only, 191.421mils
+    R20.3, Signal Layers Only, 100mils
+    R28.1, Signal Layers Only, 689.588mils
+    R29.1, Signal Layers Only, 738.526mils
+    R38.1, Signal Layers Only, 270.711mils
+    R38.2, Signal Layers Only, 160.355mils
+    R38.3, Signal Layers Only, 100mils
+    R49.3, Signal Layers Only, 287.132mils
+    R51.1, Signal Layers Only, 615.032mils
+    R51.3, Signal Layers Only, 1676.374mils
+    R53.3, Signal Layers Only, 154.175mils
+    R66.2, Signal Layers Only, 701.113mils
+    R66.3, Signal Layers Only, 1338.748mils
+    S1.2, Signal Layers Only, 3190.642mils
+    S10.2, Signal Layers Only, 433.22mils
+    S11.2, Signal Layers Only, 262.132mils
+    S2.1, Signal Layers Only, 236.007mils
+    S3.1, Signal Layers Only, 1532.565mils
+    S3.2, Signal Layers Only, 2272.669mils
+    S3.3, Signal Layers Only, 2544.946mils
+    S4.1, Signal Layers Only, 459.796mils
+    S4.2, Signal Layers Only, 256.066mils
+    S5.2, Signal Layers Only, 1482.656mils
+    S7.1, Signal Layers Only, 703.479mils
+    S8.1, Signal Layers Only, 639.572mils
+    S8.2, Signal Layers Only, 1509.987mils
+    S8.3, Signal Layers Only, 1642.818mils
+    S9.3, Signal Layers Only, 885.13mils
+    VCC, Signal Layers Only, 0mils
+    VEE, Signal Layers Only, 0mils
+    VREF1, Signal Layers Only, 2883.249mils
+count : 78
