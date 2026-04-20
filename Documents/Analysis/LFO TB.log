@@ -1,0 +1,19 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\dw2wrigh\SynologyDrive\Documents\Research\Altium\Projects\Noise Toaster\Documents\Analysis\LFO TB.net
+Start Time: Fri Apr 10 16:32:18 2026
+solver = Normal
+Maximum thread count: 24
+tnom = 27
+temp = 27
+method = modified trap
+Compress1stOrder = true
+Compress2ndOrder = true
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.308 seconds.
+
+Files loaded:
+C:\Users\dw2wrigh\SynologyDrive\Documents\Research\Altium\Projects\Noise Toaster\Documents\Analysis\LFO TB.net
+C:\Users\dw2wrigh\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\dw2wrigh\AppData\Local\LTspice\lib\sub\LT1013.sub
+C:\Users\dw2wrigh\SynologyDrive\Documents\Research\Altium\Projects\Noise Toaster\Documents\Analysis\spdt.sub
+

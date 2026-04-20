@@ -1,0 +1,15 @@
+LTspice 26.0.1 for Windows
+Circuit: Z:\Documents\Research\Altium\Projects\Noise Toaster\Documents\Analysis\WhiteNoise TB.net
+Start Time: Tue Mar 10 08:42:43 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.306 seconds.
+
+Files loaded:
+Z:\Documents\Research\Altium\Projects\Noise Toaster\Documents\Analysis\WhiteNoise TB.net
+D:\Users\dw2wrigh\AppData\Local\LTspice\lib\cmp\standard.bjt
+

@@ -1,0 +1,68 @@
+* LM386 subcircuit model follows:
+
+************************************original* IC pins:     2   3   7   1   8   5   6   4
+* IC pins:     1   2   3   4   5   6   7   8
+*              |   |   |   |   |   |   |   |
+.subckt LM386 G1  INN INP VSS OUT  VDD BYP G8
+************************************original*.subckt LM386 INN INP BYP  G1  G8 OUT  VDD VSS
+
+* input emitter-follower buffers:
+
+q1 VSS INN 10011 ddpnp
+r1 INN VSS 50k
+q2 VSS INP 10012 ddpnp
+r2 INP VSS 50k
+
+* differential input stage, gain-setting
+* resistors, and internal feedback resistor:
+
+q3 10013 10011 10008 ddpnp
+q4 10014 10012 G1 ddpnp
+r3 VDD BYP 15k
+r4 BYP 10008 15k
+r5 10008 G8 150
+r6 G8 G1 1.35k
+r7 G1 OUT 15k
+
+* input stage current mirror:
+
+q5 10013 10013 VSS ddnpn
+q6 10014 10013 VSS ddnpn
+
+* voltage gain stage & rolloff cap:
+
+q7 10017 10014 VSS ddnpn
+c1 10014 10017 15pf
+
+* current mirror source for gain stage:
+
+i1 10002 VDD dc 5m
+q8 10004 10002 VDD ddpnp
+q9 10002 10002 VDD ddpnp
+
+* Sziklai-connected push-pull output stage:
+
+q10 10018 10017 OUT ddpnp
+q11 10004 10004 10009 ddnpn 100
+q12 10009 10009 10017 ddnpn 100
+q13 VDD 10004 OUT ddnpn 100
+q14 OUT 10018 VSS ddnpn 100
+
+* generic transistor models generated
+* with MicroSim's PARTs utility, using
+* default parameters except Bf:
+
+.model ddnpn NPN(Is=10f Xti=3 Eg=1.11 Vaf=100
++ Bf=400 Ise=0 Ne=1.5 Ikf=0 Nk=.5 Xtb=1.5 Var=100
++ Br=1 Isc=0 Nc=2 Ikr=0 Rc=0 Cjc=2p Mjc=.3333
++ Vjc=.75 Fc=.5 Cje=5p Mje=.3333 Vje=.75 Tr=10n
++ Tf=1n Itf=1 Xtf=0 Vtf=10)
+
+.model ddpnp PNP(Is=10f Xti=3 Eg=1.11 Vaf=100
++ Bf=200 Ise=0 Ne=1.5 Ikf=0 Nk=.5 Xtb=1.5 Var=100
++ Br=1 Isc=0 Nc=2 Ikr=0 Rc=0 Cjc=2p Mjc=.3333
++ Vjc=.75 Fc=.5 Cje=5p Mje=.3333 Vje=.75 Tr=10n
++ Tf=1n Itf=1 Xtf=0 Vtf=10)
+
+.ends
+*----------end of subcircuit model-----------

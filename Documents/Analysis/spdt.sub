@@ -1,0 +1,15 @@
+.SUBCKT SPDT COM NO NC CTRL
+; CTRL = 0.0 .. 0.4 --> COM = NC
+; CTRL = 0.4 .. 0.6 --> COM = Not Connected
+; CTRL = 0.6 .. 1.0 --> COM = NO
+
+BCTRLb CTRLb 0 V = 1 - V(CTRL)   ; requires CTRL in [0,1]V
+
+S1 COM NO CTRL  0 SWMOD
+S2 COM NC CTRLb 0 SWMOD
+RLEAK1 COM NO 100Meg
+RLEAK2 COM NC 100Meg
+
+.model SWMOD SW(Ron=0.1 Roff=1Meg Vt=0.6 Vh=0)
+
+.ENDS SPDT

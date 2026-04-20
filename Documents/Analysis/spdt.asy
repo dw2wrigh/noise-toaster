@@ -1,0 +1,29 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -80 -16 -64 -16
+LINE Normal -96 -32 -80 -16
+LINE Normal -80 16 -64 16
+LINE Normal -96 32 -80 16
+LINE Normal -68 -13 -20 0
+LINE Normal 0 0 32 -32
+LINE Normal -16 0 0 0
+RECTANGLE Normal 32 48 -96 -48
+CIRCLE Normal -12 4 -20 -4
+CIRCLE Normal -60 20 -68 12
+CIRCLE Normal -60 -12 -68 -20
+WINDOW 3 -96 64 Left 2
+WINDOW 0 -96 -64 Left 2
+SYMATTR Value SPDT
+SYMATTR Prefix X
+PIN 32 -32 RIGHT 8
+PINATTR PinName COM
+PINATTR SpiceOrder 1
+PIN -96 32 LEFT 8
+PINATTR PinName NO
+PINATTR SpiceOrder 2
+PIN -96 -32 LEFT 8
+PINATTR PinName NC
+PINATTR SpiceOrder 3
+PIN 0 48 BOTTOM 8
+PINATTR PinName CTRL
+PINATTR SpiceOrder 4

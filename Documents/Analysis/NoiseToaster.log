@@ -1,0 +1,25 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\dw2wrigh\SynologyDrive\Documents\Research\Altium\Projects\Noise Toaster\Documents\Analysis\NoiseToaster.net
+Start Time: Fri Apr 17 13:22:40 2026
+Options:method=gear reltol=0.002 abstol=1n vntol=1u
+solver = Normal
+Maximum thread count: 24
+tnom = 27
+temp = 27
+method = Gear
+abstol = 1e-09
+reltol = 0.002
+Compress1stOrder = true
+Compress2ndOrder = true
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 7.777 seconds.
+
+Files loaded:
+C:\Users\dw2wrigh\SynologyDrive\Documents\Research\Altium\Projects\Noise Toaster\Documents\Analysis\NoiseToaster.net
+C:\Users\dw2wrigh\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\dw2wrigh\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\dw2wrigh\AppData\Local\LTspice\lib\cmp\standard.jft
+C:\Users\dw2wrigh\AppData\Local\LTspice\lib\sub\LT1013.sub
+C:\Users\dw2wrigh\SynologyDrive\Documents\Research\Altium\Projects\Noise Toaster\Documents\Analysis\spdt.sub
+C:\Users\dw2wrigh\SynologyDrive\Documents\Research\Altium\Projects\Noise Toaster\Documents\Analysis\LM386.sub
+
